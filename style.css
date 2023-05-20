@@ -1,0 +1,99 @@
+*, *::before, *::after {
+
+  box-sizing: border-box;
+  
+  }
+  
+  body {
+  
+    margin: 0;
+  
+    background-color: #f2f2f2;
+  
+    margin-bottom: 500px;
+
+    margin-top: 50px;
+
+  
+  
+  }
+  
+  .container {
+  
+    max-width: 1170px;
+  
+    margin-right: auto;
+  
+    margin-left: auto;
+  
+    padding-right: 20px;
+  
+    padding-left: 20px;
+  
+  }
+    .header {
+    margin-bottom: 50px;
+    margin-right: 100px;
+    }
+
+    .pre-text {
+    margin-top: 30px;
+    color: rgb(247, 76, 150);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    }
+    .bold-text {
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+    .bold-text2 {
+        position: absolute;
+    }
+
+    .main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .text {
+        width: 30%;
+        margin-bottom:40px ;
+        
+    }
+    .text-inside {
+    position: absolute;
+    width: 30%;
+    }   
+
+    .button {
+        width: 40px;
+        padding: 10px 50px 10px 50px;
+        border-radius: 30px;
+        border-color: rgb(189, 15, 53);
+        border: 4px solid rgb(137, 42, 93);
+        }
+    
+    .puponautas {
+        display: grid;
+        justify-self: end;
+    }
+
+    .inside-rainbow {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .paragraph {
+        position: relative;
+    }
+    .paragraph img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .grey-logos {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 250px
+    }
